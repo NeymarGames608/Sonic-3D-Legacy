@@ -1,0 +1,34 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scripts/TitleControl.gd" type="Script" id=1]
+
+[node name="SYND" type="Node2D"]
+
+[node name="TitleControl" type="Control" parent="."]
+margin_right = 1024.0
+margin_bottom = 600.0
+script = ExtResource( 1 )
+
+[node name="ExitButton" type="Button" parent="TitleControl"]
+margin_left = 687.0
+margin_top = 444.0
+margin_right = 722.0
+margin_bottom = 464.0
+rect_scale = Vector2( 7.26916, 4.95209 )
+text = "Exit"
+
+[node name="PlayButton" type="Button" parent="TitleControl"]
+margin_left = 52.0
+margin_top = 450.0
+margin_right = 122.0
+margin_bottom = 470.0
+rect_scale = Vector2( 5.86118, 5.49194 )
+text = "Replay"
+
+[node name="Label" type="Label" parent="."]
+margin_left = 156.0
+margin_top = 180.0
+margin_right = 287.0
+margin_bottom = 194.0
+rect_scale = Vector2( 5.30627, 10.6154 )
+text = "See You Next Demo!"
